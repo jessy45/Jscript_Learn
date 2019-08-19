@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Javascript</title>
+	<style type="text/css">
+		.rouges { color : red; }
+		.vert { color : green; }
+		.rose { color : yellow; }
+	</style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+</head>
+    <body>
+	<img src="images1/i1.jpg">
+	<img src="images1/i2.jpg">
+	<img src="images1/i3.jpg">
+	<ul class="rouge">
+		<li class="impair">premier élément de la liste à puces</li>
+		<li class="pair">deuxième élément de la liste à puces</li>
+		<li class="impair">troisième élément de la liste à puces</li>
+	</ul>
+		<div>
+	<ul class="bleu">
+		<li class="impair">premier élément de la liste à puces</li>
+		<li class="pair">deuxième élément de la liste à puces</li>
+		<li class="impair">troisième élément de la liste à puces</li>
+	</ul>
+		</div>
+	<ol class="rouge">
+		<li>premier élément de la liste numérotée</li>
+		<li>deuxième élément de la liste numérotée</li>
+		<li>troisième élément de la liste numérotée</li>
+	</ol>
+	<div id="listes">
+		<a href="http://api.jquery.com">API jQuery</a><br>
+		<a href="http://docs.jquery.com">Documentation jQuery</a><br>
+	</div>
+		<h1 id="paragraphe" class="rouges"></h1>
+
+	<form>
+		Nom d'utilisateur
+		<input type="text" id="nom"><br />
+		Mot de passe
+		<input type="password" id="pass"><br />
+		Sexe
+		H <input type="radio" id="sexe" name="H" value="H">
+		F <input type="radio" id="sexe" name="F" value="F"><br />
+		Fonction
+		<select id="fonction">
+		<option VALUE="etudiant">Etudiant</option>
+		<option VALUE="ingenieur">Ingénieur</option>
+		<option VALUE="enseignant">Enseignant</option>
+		<option VALUE="retraite">Retraité</option>
+		<option VALUE="autre">Autre</option>
+		</select><br /><br />
+		<input type="submit" id="envoyer" value="Envoyer">
+		<input type="reset" id="annuler" value="Annuler">
+	</form>
+		<script src="js/jquery-3.2.1.min.js" ></script>
+		<script src="js/app.js" ></script>
+    </body>
+</html>
